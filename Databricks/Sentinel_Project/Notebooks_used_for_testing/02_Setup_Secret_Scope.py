@@ -70,10 +70,10 @@ else:
 
 # COMMAND ----------
 
-kafka_bootstrap_server= 'pkc-lgk0v.us-west1.gcp.confluent.cloud:9092'
+kafka_bootstrap_server= 'server.region.gcp.confluent.cloud:9092'
 kafka_topic= 'credit_card_transactions'
-kafka_api_key= 'W7LJKOSCJDMOI2GQ' 
-kafka_api_secret= 'cfltRxCw/rXR3FyLjNtk8QCDGdFxRF2MqQGTv2+cbNG1lMG1X0BWgDV28Rtdctsw' 
+kafka_api_key= '************' 
+kafka_api_secret= '************************' 
 
 
 kafka_connection_details = json.dumps({
@@ -161,7 +161,7 @@ import json
 
 scope = secret_scope_name          # Already existing scope
 secret_key = 'gmail_api_key'       # Name of the secret entry
-secret_value = 'riai cwgo atwg pkyf' # Value to store securely
+secret_value = '************'      # Value to store securely
 
 # -------------------------------------------------
 # API Endpoint

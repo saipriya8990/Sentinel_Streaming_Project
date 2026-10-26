@@ -1,8 +1,8 @@
 # Databricks notebook source
-# bootstrap_server= 'pkc-lgk0v.us-west1.gcp.confluent.cloud:9092'
-# api_key= 'W7LJKOSCJDMOI2GQ' 
-# api_secret= 'cfltRxCw/rXR3FyLjNtk8QCDGdFxRF2MqQGTv2+cbNG1lMG1X0BWgDV28Rtdctsw' 
-# topic= 'credit_card_transactions'
+# kafka_bootstrap_server= 'server.region.gcp.confluent.cloud:9092'
+# kafka_topic= 'credit_card_transactions'
+# kafka_api_key= '************' 
+# kafka_api_secret= '************************' 
 
 # COMMAND ----------
 
